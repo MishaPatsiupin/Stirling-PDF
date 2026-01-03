@@ -259,7 +259,7 @@ describe('SpringAuthClient', () => {
         submit: vi.fn(),
       };
       vi.spyOn(document, 'createElement').mockReturnValue(mockForm as unknown as HTMLElement);
-      appendChildSpy = vi.spyOn(document.body, 'appendChild').mockImplementation(() => mockForm as unknown as HTMLFormElement);
+      appendChildSpy = vi.spyOn(document.body, 'appendChild').mockImplementation((node) => node as HTMLFormElement);
     });
 
     afterEach(() => {
