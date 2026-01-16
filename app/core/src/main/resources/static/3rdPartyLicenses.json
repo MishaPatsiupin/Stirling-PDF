@@ -656,6 +656,12 @@
             "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
         },
         {
+            "moduleName": "de.rototor.pdfbox:graphics2d",
+            "moduleVersion": "3.0.5",
+            "moduleLicense": "Apache License, Version 2.0",
+            "moduleLicenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        },
+        {
             "moduleName": "io.dropwizard.metrics:metrics-core",
             "moduleVersion": "4.2.25",
             "moduleLicense": "Apache License 2.0",
