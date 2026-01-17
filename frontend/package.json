@@ -49,6 +49,7 @@
     "@tauri-apps/plugin-shell": "^2.3.3",
     "autoprefixer": "^10.4.21",
     "axios": "^1.12.2",
+    "dayjs": "^1.11.19",
     "globals": "^17.0.0",
     "i18next": "^25.5.2",
     "i18next-browser-languagedetector": "^8.2.0",
